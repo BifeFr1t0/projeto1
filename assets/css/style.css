@@ -9,6 +9,8 @@
 }
 *{
     outline: 1px solid red;
+    margin:0;
+    color:var(--light-color)
 }
 header{
     width: 100%;
@@ -30,4 +32,10 @@ header .item{
     display: flex;
     align-items: center;
     justify-content: center;
+    color:var(--light-color)
+}
+
+header .item:hover{
+    transition: all 0.5s;
+    color:var(--secondary-color)
 }
