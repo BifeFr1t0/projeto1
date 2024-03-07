@@ -10,7 +10,6 @@
 *{
     outline: 1px solid red;
     margin:0;
-    color:var(--light-color)
 }
 header{
     width: 100%;
@@ -32,10 +31,34 @@ header .item{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:var(--light-color)
+    color:var(--light-color);
 }
 
 header .item:hover{
-    transition: all 0.5s;
+    transition: 0.5s;
     color:var(--secondary-color)
+}
+
+section{
+    height:60vh;
+    padding:32px
+}
+
+section h1{
+    font-size: 2rem
+}
+
+.image-list{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+section .image-list img{
+    width: 200px;
+    border-radius:8px;
+}
+
+.brasil{
+    background:var(--tertiary-color)
 }
